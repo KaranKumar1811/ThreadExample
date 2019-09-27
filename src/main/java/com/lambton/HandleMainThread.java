@@ -8,5 +8,11 @@ public class HandleMainThread {
         t1.start();
         t2.start();
 
+
+        SecondThread s1=new SecondThread("K");
+              Thread t3=new Thread(s1);
+              t3.start();
+
+
     }
 }
